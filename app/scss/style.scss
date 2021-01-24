@@ -1,0 +1,197 @@
+
+:root{
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .previous, .nexts {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .nexts {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .previous:hover, .nexts:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .ovals-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* The dots/bullets/indicators */
+  .ovals {
+    cursor: pointer;
+    height: 5px;
+    width: 30px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 30%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+}
+  
+  /* Add a background color to the active dot/circle */
+  .active-slide, .ovals:hover {
+    background-color: #C9D408 !important;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}
+
+#navbarSupportedContent{
+    margin-left: 50px;
+    li{
+        // margin-right: 5px !important;
+        padding: 10px 14px;
+    }
+}
+nav.navbar{
+    &.navbar-expand-lg{
+        &.navbar-light {
+        padding: 0;
+        }
+    }
+}
+.nav-li-active{
+    background-color: #0E817B !important;color: white !important;
+    a:active{
+        color: white;
+    }
+}
+
+li.li-nav:hover{
+    background-color: #0E817B !important;color: white !important;
+    a.nav-a-item{
+        color: white !important;
+    }
+}
+
+li.li-nav:active{
+    background-color: #0E817B !important;color: white !important;
+    a.nav-a-item:active{
+        color: white !important;
+    }
+}
+
+.brand-img{
+    width: 90%;
+}
+
+// BreadCumbs
+/*Menghilangkan liststyle pada tag list*/
+.breadcrumbs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  /*Merubah tag list menjadi inline dan membuat hruf menjad capital*/
+.breadcrumb{
+    background-color: rgba(0,0,0,0);
+    li{
+        display: inline;
+        a{
+            color:#646464;
+        }
+        
+    }
+}
+.breadcrumb li+li:before {
+    content:">";
+    color:#646464;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.breadcrumb li:hover a:hover {
+    content:">";
+    color:#FFFFFF;
+    text-decoration: none;
+}
+// End Of Breadcumbs
+
+// Slider Jumbotron
+
+
+// @media(max-width: 800px){
+//     .img-jumbtron{
+//         height: 100% !important;
+//     }
+//     .slider-jumbotron{
+//         width: 100%;
+//         height: 100%;
+//         position: static;
+//         background-color: rgba(0,0,0, .7);
+//         overflow: auto;
+//         .slideshow-container{
+//             .mySlides{
+//                 h5{
+//                     font-size: 20px !important;
+//                 }
+//                 p{
+//                     font-size: 14px !important;
+//                 }
+//             }
+//         }
+//     }
+// }
+// // End Of Slider Jumbtoron
+
+// @media (max-width: 984px) { 
+//     #navbarSupportedContent{
+//         margin-left: 0 !important;
+//         li{
+//             margin-right: 0 !important;
+//             padding: 0 !important;
+//         }
+//     }
+// }
+
+@media screen and (max-width: 767px) {
+    .navbar{
+        padding: 23px !important;
+        #navbarSupportedContent{
+            margin-left: 0 !important;
+        }
+    }
+    .brand-img{
+        width: 250px;
+    }
+}
