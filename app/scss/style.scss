@@ -239,6 +239,21 @@ li.li-nav:active{
     }
 }
 
+.breadcumb-wrapper{
+    .breadcrumb{
+        color: #646464;
+        .breadcrumb-item + .breadcrumb-item::before {
+            content: ">";
+        }
+        a{
+            color: #0C958E;
+            &:hover{
+                color: #0C958E !important;
+            }
+        }
+    }
+}
+
 #wrapp-bg {
     background: #F0F0F0;
 }
