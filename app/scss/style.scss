@@ -81,7 +81,31 @@
     margin-left: 50px;
     li{
         // margin-right: 5px !important;
-        padding: 10px 14px;
+        .btn-linkg{
+            padding: 10px 12px;
+            color: rgba(0,0,0,.5);
+            outline: none !important;
+            box-shadow: none !important;
+            &:hover{
+                i{
+                    color: #fff;
+                }
+                span{
+                    color: #fff;
+                }
+            }
+            @media screen and (min-width:991px) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                &::after{
+                    content: '';
+                    border: none;
+                }   
+            }
+        }
     }
 }
 nav.navbar{
