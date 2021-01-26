@@ -656,6 +656,10 @@ ul.list-group{
         .subtitle-news{
             margin-bottom: 15px;
             font-size: 15px;
+            a{
+                color: #212529;
+                text-decoration: none;
+            }
         }
         .atribute-col {
             color: #646464;
@@ -709,6 +713,10 @@ ul.list-group{
         }
         .sidetitle{
             font-size: 14px;
+            a{
+                color: #212529;
+                text-decoration: none;
+            }
         }
         span{
             font-size: 12px;
@@ -722,6 +730,22 @@ ul.list-group{
         }
         .mb-gl{
             margin-bottom: 30px;
+        }
+        .vid-slider{
+            .slick-arrow{
+                z-index: 1;
+                &:before{
+                    background-color: rgba(0,0,0,.5);
+                    border-radius: 5px;
+                    padding: 5px;
+                }
+                &.slick-prev {
+                    left: 50px;
+                }
+                &.slick-next {
+                    right: 50px;
+                }
+            }
         }
     }
     .navigation-pagging{
@@ -737,6 +761,76 @@ ul.list-group{
             &.active{
                 .page-link{
                     background-color: #0E817B;
+                }
+            }
+        }
+    }
+    &.detail-news{
+        margin-top: 34px;
+        .wrapp-detail{
+            .title{
+                margin-top: 34px;
+                h2{
+                    font-weight: 600;
+                }
+                span{
+                    font-size: 12px;
+                    color: #646464;
+                }
+            }
+            .col-redaktur{
+                margin-top: 34px;
+                p{
+                    font-size: 14px;
+                }
+            }
+            .main-article{
+                margin-bottom: 34px;
+                .wrcol-img{
+                    margin-bottom: 13px;
+                    .img-inner {
+                        padding-right: 23px;
+                    }
+                }
+                .share-col{
+                    margin-top: 23px;
+                    span{
+                        font-weight: 600;
+                    };
+                    i.fab{
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+        .col-redaktur.btm{
+            margin: 34px 0;
+            p{
+                font-weight: 600;
+                span{
+                    font-size: 12px;
+                    color: #646464;
+                }
+            }
+        }
+        .col-related-new{
+            margin: 34px 0;
+            .lbl{
+                margin-bottom: 23px;
+                span{
+                    font-weight: 600;
+                }
+            }
+            .group-news-bottom{
+                .sidetitle{
+                    a{
+                        color: #212529;
+                        text-decoration: none;
+                    }
+                }
+                span{
+                    font-size: 12px;
+                    color: #646464;
                 }
             }
         }
