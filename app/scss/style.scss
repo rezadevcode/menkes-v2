@@ -624,6 +624,35 @@ ul.list-group{
     margin-bottom: 54px;
     .group-news{
         margin-bottom: 34px;
+        .img{
+            position: relative;
+            a{
+                display: block;
+                position: relative;                
+                .hover{
+                    background: rgba(14, 129, 123, 0.6);
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    display: none;
+                    .fas{
+                        color: #fff;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 100%;
+                        width: 100%;
+                        font-size: 16px;
+                    }
+                }
+                &:hover{
+                 .hover{
+                     display: block;
+                     top: 0;
+                 }   
+                }   
+            }
+        }
         .subtitle-news{
             margin-bottom: 15px;
             font-size: 15px;
@@ -649,6 +678,35 @@ ul.list-group{
         margin-top: 18px;
         border-bottom: 1px dashed;
         padding-bottom: 15px;
+        .img{
+            position: relative;
+            a{
+                display: block;
+                position: relative;                
+                .hover{
+                    background: rgba(14, 129, 123, 0.6);
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    display: none;
+                    .fas{
+                        color: #fff;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 100%;
+                        width: 100%;
+                        font-size: 16px;
+                    }
+                }
+                &:hover{
+                 .hover{
+                     display: block;
+                     top: 0;
+                 }   
+                }   
+            }
+        }
         .sidetitle{
             font-size: 14px;
         }
