@@ -421,6 +421,7 @@ li.li-nav:active{
         .list-agenda{
             position: absolute;
             left: 0 !important;
+            padding: 0 15px 0 0;
         }
     }
     
@@ -586,5 +587,100 @@ ul.list-group{
 {
     .jumbotron-nyamuk{
         background-position-y: 0 !important;
+    }
+}
+
+// news list//
+
+.search-top-wrapper{
+    margin-bottom: 47px;
+    .col-left{
+        select{
+            width: 150px;
+            margin-left: 5px;
+            border-radius: 5px;
+            background: transparent;
+            padding-left: 12px;
+        }
+    }
+    .col-right{
+        .search-wrapper{
+            position: relative;
+            .input-group-text{
+                background: transparent;
+                position: absolute;
+                right: 0;
+                top: 5px;
+            }
+        }
+    }
+    .border-bar {
+        border-bottom: 1px solid;
+        margin: 23px 0;
+    }
+}
+
+.news-list{
+    margin-bottom: 54px;
+    .group-news{
+        margin-bottom: 34px;
+        .subtitle-news{
+            margin-bottom: 15px;
+            font-size: 15px;
+        }
+        .atribute-col {
+            color: #646464;
+            font-size: 14px;
+        }
+    }
+    .hd-lable{
+        .lbl{
+            font-weight: 600;
+            margin-right: 10px;
+        }
+        .line-center{
+            border-bottom: 1px solid #C9D408;
+        }
+        &.video-col{
+            margin-top: 34px;
+        }
+    }
+    .wrap-list{
+        margin-top: 18px;
+        border-bottom: 1px dashed;
+        padding-bottom: 15px;
+        .sidetitle{
+            font-size: 14px;
+        }
+        span{
+            font-size: 12px;
+            color: #646464;
+            &.profile{
+                background: #666666;
+                padding: 3px 6px;
+                color: #ffffff;
+                border-radius: 5px;
+            }
+        }
+        .mb-gl{
+            margin-bottom: 30px;
+        }
+    }
+    .navigation-pagging{
+        margin-top: 34px;
+        .page-item{
+            margin-right: 4px;
+            .page-link{
+                background-color: #646464;
+                color: #ffffff;
+                border-radius: 4px;
+                border: none;
+            }
+            &.active{
+                .page-link{
+                    background-color: #0E817B;
+                }
+            }
+        }
     }
 }
