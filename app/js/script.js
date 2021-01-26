@@ -49,6 +49,16 @@ $(document).ready(function() {
             // instead of a settings object
         ]
     });
-      
+    
+    $('.vid-slider').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        autoplay: false,
+        slidesToShow: 1,
+        // slidesToScroll: 4,
+        // draggable : false,
+        // arrows: false,
+    })
     
 });
