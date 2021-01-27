@@ -165,7 +165,7 @@
       <section class="page-wrapper struktur-org">
         <div class="detail-page-wrapper">
           <div class="container">
-              <div class="row">
+              <div class="row reverse-mobile">
                 <div class="col-md-8">
                     <div class="main-content">
                       <h1 class="title mb-5">Struktur Organisasi</h1>
@@ -176,73 +176,29 @@
                 <div class="col-md-4 sidebar-right">
                   <div class="widget news-sidebar">
                       <div class="hd-lable d-flex align-items-center">
-                        <div class="lbl"><i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp; Berita Terpopuler</div>
+                        <div class="lbl"><i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp; Unit</div>
                         <div class="col line-center"></div>
                       </div>
-                      <div class="wrap-list row">
-                          <div class="col-1"><span class="number">1.</span></div>
-                          <div class="col-8">
-                            <div class="sidetitle"><a href="#">HILANGKAN KERAGUAN, TENAGA KESEHATAN SIAP</a></div>
-                            <span><i class="fa fa-calendar-o" aria-hidden="true"></i> 4 jan, 2021</span>
-                          </div>
-                          <div class="col-3">
-                              <a href="#"><img src="images/thumb-event-1.png" class="img-fluid"></a>
-                          </div>
-                          <div class="col-12">
-                            <div class="bd-btm"></div>
-                          </div>
+                      <div class="wr-group-list desktop-show">
+                        <ul class="list-group ">
+                            <li class="list-group-item bg-transparent pl-0"><a href="#">Laporan Keuangan</a></li>
+                            <li class="list-group-item bg-transparent pl-0"><a href="#">Anggaran</a></li>
+                            <li class="list-group-item bg-transparent pl-0"><a href="#">DIPA</a></li>
+                            <li class="list-group-item bg-transparent pl-0"><a href="#">Rencana Kerja</a></li>
+                            <li class="list-group-item bg-transparent pl-0"><a href="#">Rencana Umum dan pengadaan</a></li>
+                            <li class="list-group-item bg-transparent pl-0"><a href="#">Kinerja Kemenkes</a></li>
+                        </ul>
                       </div>
-                      <div class="wrap-list row">
-                        <div class="col-1"><span class="number">2.</span></div>
-                        <div class="col-8">
-                          <div class="sidetitle"><a href="#">HILANGKAN KERAGUAN, TENAGA KESEHATAN SIAP</a></div>
-                          <span><i class="fa fa-calendar-o" aria-hidden="true"></i> 4 jan, 2021</span>
-                        </div>
-                        <div class="col-3">
-                          <a href="#"><img src="images/thumb-event-1.png" class="img-fluid"></a>
-                        </div>
-                        <div class="col-12">
-                          <div class="bd-btm"></div>
-                        </div>
-                      </div>
-                      <div class="wrap-list row">
-                        <div class="col-1"><span class="number">3.</span></div>
-                        <div class="col-8">
-                          <div class="sidetitle"><a href="#"> HILANGKAN KERAGUAN, TENAGA KESEHATAN SIAP</a></div>
-                          <span><i class="fa fa-calendar-o" aria-hidden="true"></i> 4 jan, 2021</span>
-                        </div>
-                        <div class="col-3">
-                          <a href="#"><img src="images/thumb-event-1.png" class="img-fluid"></a>
-                        </div>
-                        <div class="col-12">
-                          <div class="bd-btm"></div>
-                        </div>
-                      </div>
-                      <div class="wrap-list row">
-                        <div class="col-1"><span class="number">4.</span></div>
-                        <div class="col-8">
-                          <div class="sidetitle"><a href="#"> HILANGKAN KERAGUAN, TENAGA KESEHATAN SIAP</a></div>
-                          <span><i class="fa fa-calendar-o" aria-hidden="true"></i> 4 jan, 2021</span>
-                        </div>
-                        <div class="col-3">
-                          <a href="#"><img src="images/thumb-event-1.png" class="img-fluid"></a>
-                        </div>
-                        <div class="col-12">
-                          <div class="bd-btm"></div>
-                        </div>
-                      </div>
-                      <div class="wrap-list row">
-                        <div class="col-1"><span class="number">5.</span></div>
-                        <div class="col-8">
-                          <div class="sidetitle"><a href="#"> HILANGKAN KERAGUAN, TENAGA KESEHATAN SIAP</a></div>
-                          <span><i class="fa fa-calendar-o" aria-hidden="true"></i> 4 jan, 2021</span>
-                        </div>
-                        <div class="col-3">
-                          <a href="#"><img src="images/thumb-event-1.png" class="img-fluid"></a>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="widget video-sidebar">
+                      <select class="form-control mobile-show mb-5" id="exampleFormControlSelect1">
+                        <option>Laportan Keuangan</option>
+                        <option>Anggaran</option>
+                        <option>DIPA</option>
+                        <option>Rencana Kerja</option>
+                        <option>Rencana Umum dan pengadaan</option>
+                        <option value="">Kinerja Kemenkes</option>
+                      </select>
+                  </div> 
+                  <div class="widget video-sidebar desktop-show">
                     <!-- video -->
                     <div class="hd-lable d-flex align-items-center">
                       <div class="lbl"><i class="fa fa-video-camera" aria-hidden="true"></i>&nbsp; Video</div>
@@ -260,7 +216,7 @@
                     </div>
                   </div>                  
                   <!-- Event -->
-                  <div class="widget event-sidebar d-none d-sm-block">
+                  <div class="widget event-sidebar desktop-show">
                     <div class="hd-lable d-flex align-items-center">
                       <div class="lbl"><i class="fa fa-video-camera" aria-hidden="true"></i>&nbsp; Event & Info</div>
                       <div class="col line-center"></div>
@@ -294,64 +250,6 @@
                     </div>
                   </div>
                   
-                  <div class="widget gallery-sidebar d-none d-sm-block">
-                    <!-- gallery -->
-                    <div class="hd-lable d-flex align-items-center">
-                      <div class="lbl"><i class="fa fa-file-image-o" aria-hidden="true"></i>&nbsp; Foto Galeri</div>
-                      <div class="col line-center"></div>
-                    </div>
-                      <div class="wrap-list row">
-                        <div class="col-4 mb-gl">
-                          <div class="img">
-                            <a href="#">
-                              <img src="images/galeri-sidebar-1.png" class="img-fluid">
-                              <div class="hover"><i class="fas fa-expand-arrows-alt"></i></div>
-                            </a>  
-                          </div>                        
-                        </div>
-                        <div class="col-4 mb-gl">
-                          <div class="img">
-                            <a href="#">
-                              <img src="images/galeri-sidebar-2.png" class="img-fluid">
-                              <div class="hover"><i class="fas fa-expand-arrows-alt"></i></div>
-                            </a> 
-                          </div>                        
-                        </div>
-                        <div class="col-4 mb-gl">
-                          <div class="img">
-                            <a href="#">
-                              <img src="images/galeri-sidebar-3.png" class="img-fluid">
-                              <div class="hover"><i class="fas fa-expand-arrows-alt"></i></div>
-                            </a>
-                          </div>                         
-                        </div>
-                        <div class="col-4 mb-gl">
-                          <div class="img">
-                            <a href="#">
-                              <img src="images/galeri-sidebar-4.png" class="img-fluid">
-                              <div class="hover"><i class="fas fa-expand-arrows-alt"></i></div>
-                            </a> 
-                          </div>                        
-                        </div>
-                        <div class="col-4 mb-gl">
-                          <div class="img">
-                            <a href="#">
-                              <img src="images/galeri-sidebar-3.png" class="img-fluid">
-                              <div class="hover"><i class="fas fa-expand-arrows-alt"></i></div>
-                            </a> 
-                          </div>                        
-                        </div>
-                        <div class="col-4 mb-gl">
-                          <div class="img">
-                            <a href="#">
-                              <img src="images/galeri-sidebar-2.png" class="img-fluid">
-                              <div class="hover"><i class="fas fa-expand-arrows-alt"></i></div>
-                            </a> 
-                          </div>                        
-                        </div>
-                      </div>
-                    </div>             
-                </div>
               <!-- end sidebar -->
               </div>
           </div>

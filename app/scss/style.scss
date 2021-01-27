@@ -6,6 +6,20 @@ body{
     color: #646464;
 }
 
+.desktop-show{
+    display: none;
+    @media screen and (min-width:991px) {
+        display: block;
+    }
+}
+
+.mobile-show{
+    display: none;
+    @media screen and (max-width:991px) {
+        display: block;
+    }
+}
+
 .bg-sidebar{
     background-color: #F7F7F7;
 }
@@ -21,7 +35,9 @@ body{
 }
 
 .mobile-column{
-    flex-direction: column !important;
+    @media screen and (max-width:991px) {
+        flex-direction: column !important;
+    }
 }
 
 .reverse-mobile{
@@ -770,9 +786,15 @@ ul.list-group{
         margin-bottom: 34px;
         .img{
             position: relative;
+            @media screen and (max-width:768px) {
+                height: 80px;
+            }
             a{
                 display: block;
-                position: relative;                
+                position: relative;           
+                @media screen and (max-width:768px) {
+                    height: 100%;
+                }     
                 .hover{
                     background: rgba(14, 129, 123, 0.6);
                     position: absolute;
@@ -795,6 +817,12 @@ ul.list-group{
                      top: 0;
                  }   
                 }   
+                img{
+                    @media screen and (max-width:768px) {
+                        object-fit: cover;
+                        height: 100%;
+                    }
+                }
             }
         }
         .subtitle-news{
@@ -907,15 +935,6 @@ ul.list-group{
     }
 }
 @media screen and (max-width: 767px) {
-    .news-list{
-        .group-news{
-            .img{
-                img{
-                    width: 100%;
-                }
-            }
-        }
-    }
     .col-redaktur{
         .item-img{
             width: auto;
@@ -934,12 +953,40 @@ ul.list-group{
 // ============ jurnal ================//
 .list-jurnal{
     .group-news {
-        .img{
+        .img{            
+            border-radius: 8px;
+            overflow: hidden;
             @media screen and (max-width:768px) {
                 margin-bottom: 20px;
             }
+            a{
+                display: block;
+                position: relative;
+                .hover{
+                    background: rgba(14, 129, 123, 0.6);
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    display: none;
+                    
+                    .fas{
+                        color: #fff;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 100%;
+                        width: 100%;
+                        font-size: 16px;
+                    }
+                }
+                &:hover{
+                 .hover{
+                     display: block;
+                     top: 0;
+                 }   
+                }  
+            }
             img{
-                border-radius: 8px;
                 @media screen and (max-width:768px) {
                     width: 250px;
                 }
@@ -954,17 +1001,20 @@ ul.list-group{
                 }
                 a{
                     color: #0E817B;
-                    font-size: 20px;
+                    font-size: 18px;
                     font-weight: 700;
+                    text-decoration: none;
                 }
             }
         }
         .bt-file {
             background-color: #BFBFBF;
-            width: 150px;
             text-align: center;
-            padding: 5px;
-            border-radius: 8px;
+            font-size: 14px;
+            @media screen and (max-width:768px) {
+                width: 120px;
+                margin-bottom: 20px;
+            }
             a{
                 color: #646464;
                 text-decoration: none;
