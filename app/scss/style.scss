@@ -254,6 +254,7 @@ li.li-nav:active{
 }
 
 .breadcumb-wrapper{
+    background-color: #E3E3E3;
     .breadcrumb{
         color: #646464;
         .breadcrumb-item + .breadcrumb-item::before {
@@ -689,6 +690,7 @@ ul.list-group{
         }
         .sidetitle{
             font-size: 14px;
+            font-weight: 600;
             a{
                 color: #212529;
                 text-decoration: none;
@@ -708,7 +710,7 @@ ul.list-group{
             }
         }
         span.number{
-            font-size: 15px;
+            font-size: 20px;
             font-weight: 600;
         }
         .mb-gl{
@@ -867,6 +869,7 @@ ul.list-group{
             }
             .group-news-bottom{
                 .sidetitle{
+                    font-weight: 600;
                     a{
                         color: #212529;
                         text-decoration: none;
