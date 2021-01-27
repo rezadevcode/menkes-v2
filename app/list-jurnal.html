@@ -164,8 +164,8 @@
     </section>   
     <section class="search-top-wrapper">
         <div class="container">
-          <div class="d-flex justify-content-between align-items-center bd-highlight">
-            <div class="col-left d-none d-sm-block">
+          <div class="d-flex justify-content-between align-items-center bd-highlight mobile-column">
+            <div class="col-left mb-2">
               <span >Urutkan berdasarkan:</span>
               <select name="" id="">
                 <option value="">Terbaru</option>
@@ -192,7 +192,7 @@
     <section class="page-wrapper news-list list-jurnal">
       <div class="detail-page-wrapper">
         <div class="container">
-            <div class="row">
+            <div class="row reverse-mobile">
                 <div class="col-md-8">
                     <div class="group-news row">
                       <div class="col-md-3">
@@ -265,13 +265,13 @@
                     </nav>
                 </div>
             <!-- sidebar Jurnal-->
-            <div class="col-md-4 sidebar-right">
+            <div class="col-md-4 sidebar-right mb-5">
               <div class="widget news-sidebar">
                   <div class="hd-lable d-flex align-items-center">
                     <div class="lbl"><i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp; Laporan</div>
                     <div class="col line-center"></div>
                   </div>
-                  <div class="wr-group-list">
+                  <div class="wr-group-list d-none d-sm-block">
                     <ul class="list-group">
                         <li class="list-group-item"><a href="#">Laporan Keuangan</a></li>
                         <li class="list-group-item"><a href="#">Anggaran</a></li>
@@ -280,7 +280,14 @@
                         <li class="list-group-item"><a href="#">Rencana Umum dan pengadaan</a></li>
                         <li class="list-group-item"><a href="#">Kinerja Kemenkes</a></li>
                     </ul>
-                    </div>
+                  </div>
+                  <select class="form-control d-block d-sm-none mt-2" id="exampleFormControlSelect1">
+                    <option>Laportan Keuangan</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
               </div>           
             </div>
           <!-- end sidebar -->
