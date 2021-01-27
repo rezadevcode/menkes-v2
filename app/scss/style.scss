@@ -671,6 +671,9 @@ ul.list-group{
             a{
                 color: #212529;
                 text-decoration: none;
+                &:hover{
+                    color: #0E817B;
+                }
             }
         }
         span{
@@ -744,6 +747,9 @@ ul.list-group{
             a{
                 color: #212529;
                 text-decoration: none;
+                &:hover{
+                    color: #0E817B;
+                }
             }
         }
         .atribute-col {
@@ -830,6 +836,9 @@ ul.list-group{
                     a{
                         color: #212529;
                         text-decoration: none;
+                        &:hover{
+                            color: #0E817B;
+                        }
                     }
                 }
                 span{
