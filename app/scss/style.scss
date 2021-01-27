@@ -1,9 +1,20 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    color: #646464;
 }
 
 .bg-sidebar{
     background-color: #F7F7F7;
+}
+
+.list-pejabat-wrapper{
+    .list-pejabat{
+        border-bottom: 1px solid #E3E3E3;
+        .name{
+            color: #0E817B;
+            font-weight: 700;
+        }
+    }
 }
 
 /* Slideshow container */
@@ -704,6 +715,15 @@ ul.list-group{
                     right: 50px;
                 }
             }
+        }
+    }
+}
+
+.page-wrapper{
+    .detail-page-wrapper{
+        .title{
+            font-weight: 700;
+            font-size: 30px;
         }
     }
 }
