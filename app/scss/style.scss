@@ -620,52 +620,7 @@ ul.list-group{
     }
 }
 
-.news-list{
-    margin-bottom: 54px;
-    .group-news{
-        margin-bottom: 34px;
-        .img{
-            position: relative;
-            a{
-                display: block;
-                position: relative;                
-                .hover{
-                    background: rgba(14, 129, 123, 0.6);
-                    position: absolute;
-                    width: 100%;
-                    height: 100%;
-                    display: none;
-                    .fas{
-                        color: #fff;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        height: 100%;
-                        width: 100%;
-                        font-size: 16px;
-                    }
-                }
-                &:hover{
-                 .hover{
-                     display: block;
-                     top: 0;
-                 }   
-                }   
-            }
-        }
-        .subtitle-news{
-            margin-bottom: 15px;
-            font-size: 15px;
-            a{
-                color: #212529;
-                text-decoration: none;
-            }
-        }
-        .atribute-col {
-            color: #646464;
-            font-size: 14px;
-        }
-    }
+.sidebar-right{
     .hd-lable{
         .lbl{
             font-weight: 600;
@@ -748,6 +703,55 @@ ul.list-group{
             }
         }
     }
+}
+
+.news-list{
+    margin-bottom: 54px;
+    .group-news{
+        margin-bottom: 34px;
+        .img{
+            position: relative;
+            a{
+                display: block;
+                position: relative;                
+                .hover{
+                    background: rgba(14, 129, 123, 0.6);
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    display: none;
+                    .fas{
+                        color: #fff;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 100%;
+                        width: 100%;
+                        font-size: 16px;
+                    }
+                }
+                &:hover{
+                 .hover{
+                     display: block;
+                     top: 0;
+                 }   
+                }   
+            }
+        }
+        .subtitle-news{
+            margin-bottom: 15px;
+            font-size: 15px;
+            a{
+                color: #212529;
+                text-decoration: none;
+            }
+        }
+        .atribute-col {
+            color: #646464;
+            font-size: 14px;
+        }
+    }
+    
     .navigation-pagging{
         margin-top: 34px;
         .page-item{
