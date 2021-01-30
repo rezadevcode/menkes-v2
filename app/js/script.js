@@ -60,5 +60,13 @@ $(document).ready(function() {
         // draggable : false,
         // arrows: false,
     })
+
+    $('.widget-slider').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        autoplay: false,
+        slidesToShow: 1,
+    })
     
 });

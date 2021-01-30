@@ -149,115 +149,132 @@
     </div>
 </nav>
 <!-- End Of Navbar -->
-<!-- End Of Navbar -->
     <section id="wrapp-bg">
     <!-- Main -->
       <div class="breadcumb-wrapper">
         <div class="container">
           <nav aria-label="breadcrumb">
-            <ol class="breadcrumb px-0">
+            <ol class="breadcrumb px-0 bottom-0">
               <li class="breadcrumb-item"><a href="#">Beranda</a></li>
-              <li class="breadcrumb-item"><a href="#">Visi Misi</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Struktur Organisasi</li>
+              <li class="breadcrumb-item">Peraturan</li>
             </ol>
           </nav>
         </div>
-      </div>       
-      <section class="page-wrapper struktur-org">
-        <div class="detail-page-wrapper">
-          <div class="container">
-              <div class="row reverse-mobile">
-                <div class="col-md-8">
-                    <div class="main-content">
-                      <h1 class="title mb-5">Struktur Organisasi</h1>
-                      <div class="img"><img src="images/img-struktur.png" alt="" class="img-fluid"></div>
+      </div>
+    </section>
+    <section class="wrapp-innerbg">
+        <section class="search-top-wrapper">
+            <div class="container">
+            <div class="d-flex justify-content-between align-items-center bd-highlight mobile-column">
+                <div class="col-left mb-2">
+                <span >Urutkan berdasarkan:</span>
+                <select name="" id="">
+                    <option value="">Terbaru</option>
+                    <option value="">Terkait</option>
+                </select>
+                </div>
+                <div class="col-right">
+                <div class="search-wrapper">
+                    <div class="input-group rounded">
+                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                        aria-describedby="search-addon" />
+                    <span class="input-group-text border-0" id="search-addon">
+                        <i class="fas fa-search"></i>
+                    </span>
                     </div>
                 </div>
-                <!-- sidebar -->
-                <div class="col-md-4 sidebar-right">
-                  <div class="widget struktur-sidebar">
-                      <div class="hd-lable d-flex align-items-center">
-                        <div class="lbl"><i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp; Unit</div>
-                        <div class="col line-center"></div>
-                      </div>
-                      <div class="wr-group-list desktop-show">
-                        <ul class="list-group ">
-                            <li class="list-group-item bg-transparent pl-0"><a href="#">Laporan Keuangan</a></li>
-                            <li class="list-group-item bg-transparent pl-0"><a href="#">Anggaran</a></li>
-                            <li class="list-group-item bg-transparent pl-0"><a href="#">DIPA</a></li>
-                            <li class="list-group-item bg-transparent pl-0"><a href="#">Rencana Kerja</a></li>
-                            <li class="list-group-item bg-transparent pl-0"><a href="#">Rencana Umum dan pengadaan</a></li>
-                            <li class="list-group-item bg-transparent pl-0"><a href="#">Kinerja Kemenkes</a></li>
-                        </ul>
-                      </div>
-                      <select class="form-control mobile-show mb-5" id="exampleFormControlSelect1">
-                        <option>Laportan Keuangan</option>
-                        <option>Anggaran</option>
-                        <option>DIPA</option>
-                        <option>Rencana Kerja</option>
-                        <option>Rencana Umum dan pengadaan</option>
-                        <option value="">Kinerja Kemenkes</option>
-                      </select>
-                  </div> 
-                  <div class="widget video-sidebar desktop-show">
-                    <!-- video -->
-                    <div class="hd-lable d-flex align-items-center">
-                      <div class="lbl"><i class="fa fa-video-camera" aria-hidden="true"></i>&nbsp; Video</div>
-                      <div class="col line-center"></div>
+                </div>
+            </div>
+            <!-- <div class="mt-5 col-12"> -->
+                <div class="border-bar"></div>
+            <!-- </div> -->
+            </div>          
+        </section> 
+        <section class="page-wrapper rule-section">
+        <div class="detail-page-wrapper">
+            <div class="container">
+                <div class="row reverse-mobile">
+                    <div class="col-md-8">
+                       <div class="widget-content">
+                           <div class="table-responsive">
+                                <table class="table table-borderless">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">No</th>
+                                        <th scope="col">Peraturan</th>
+                                        <th scope="col">Tentang</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td scope="row">1</th>
+                                        <td>1 Tahun 1962</td>
+                                        <td><a href="detail-peraturan.html">Karantina Laut</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">1</th>
+                                        <td>1 Tahun 1962</td>
+                                        <td><a href="detail-peraturan.html">Perbendaharaan Negara</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">1</th>
+                                        <td>1 Tahun 1962</td>
+                                        <td><a href="detail-peraturan.html">Karantina Laut</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">1</th>
+                                        <td>1 Tahun 1962</td>
+                                        <td><a href="#">Karantina Laut</a></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <nav class="navigation-pagging">
+                                <ul class="pagination">
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">...</a></li>
+                                <li class="page-item"><a class="page-link" href="#">100</a></li>
+                                <li class="page-item"><a class="page-link" href="#">></a></li>
+                                </ul>
+                            </nav>
+                       </div>
                     </div>
-                    <div class="wrap-list row">
-                      <div class="vid-slider col-12">
-                        <div>
-                          <img src="images/video-img.png" class="img-fluid">
-                        </div>
-                        <div>
-                          <img src="images/video-img.png" class="img-fluid">
-                        </div>
-                      </div>
+                <!-- sidebar Jurnal-->
+                    <div class="col-md-4 sidebar-right mb-5">
+                        <div class="widget rule-sidebar">
+                            <div class="hd-lable d-flex align-items-center">
+                                <div class="lbl"><i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp; Jenis Peraturan</div>
+                                <div class="col line-center"></div>
+                            </div>
+                            <div class="wr-group-list desktop-show">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><a href="#">Peraturan Pemerintah</a></li>
+                                    <li class="list-group-item"><a href="#">Permenkes</a></li>
+                                    <li class="list-group-item"><a href="#">DIPA</a></li>
+                                    <li class="list-group-item"><a href="#">Inpres</a></li>
+                                    <li class="list-group-item"><a href="#">Perpres</a></li>
+                                    <li class="list-group-item"><a href="#">Keppres</a></li>
+                                    <li class="list-group-item"><a href="#">Lain-Lain</a></li>
+                                </ul>
+                            </div>
+                            <select class="form-control mobile-show" id="exampleFormControlSelect1">
+                                <option>Peraturan Pemerintah</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>           
                     </div>
-                  </div>                  
-                  <!-- Event -->
-                  <div class="widget event-sidebar desktop-show">
-                    <div class="hd-lable d-flex align-items-center">
-                      <div class="lbl"><i class="fa fa-video-camera" aria-hidden="true"></i>&nbsp; Event & Info</div>
-                      <div class="col line-center"></div>
-                    </div>
-                    <div class="wrap-list row">
-                      <div class="col-3 ">
-                        <a href="#"><img src="images/thumb-event-1.png" class="img-fluid"></a>
-                      </div>
-                      <div class="col-9 pd-0">
-                        <div class="sidetitle"><a href="#">Struktur Organisasi</a></div>
-                        <span class="profile">Profile</span>&nbsp; <span><i class="fa fa-calendar-o" aria-hidden="true"></i> 4 jan, 2021</span>
-                      </div>
-                    </div>
-                    <div class="wrap-list row">
-                      <div class="col-3">
-                        <a href="#"><img src="images/thumb-event-1.png" class="img-fluid"></a>
-                      </div>
-                      <div class="col-9 pd-0">
-                        <div class="sidetitle"><a href="#">Struktur Organisasi</a></div>
-                        <span class="profile">Profile</span>&nbsp; <span><i class="fa fa-calendar-o" aria-hidden="true"></i> 4 jan, 2021</span>
-                      </div>
-                    </div>
-                    <div class="wrap-list row">
-                      <div class="col-3">
-                        <a href="#"><img src="images/thumb-event-1.png" class="img-fluid"></a>
-                      </div>
-                      <div class="col-9 pd-0">
-                        <div class="sidetitle"><a href="#">Struktur Organisasi</a></div>
-                        <span class="profile">Profile</span>&nbsp; <span><i class="fa fa-calendar-o" aria-hidden="true"></i> 4 jan, 2021</span>
-                      </div>
-                    </div>
-                  </div>
-                  
-              <!-- end sidebar -->
-              </div>
-          </div>
+            <!-- end sidebar -->
+                </div>
+            </div>
         </div>        
-      </section>
+        </section>
     </section>
-            <!-- Kontak Kami -->
+    <!-- Kontak Kami -->
     <section class="contact-us">
       <div class="container">
         <div class="row py-5">

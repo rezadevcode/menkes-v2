@@ -149,115 +149,140 @@
     </div>
 </nav>
 <!-- End Of Navbar -->
-<!-- End Of Navbar -->
     <section id="wrapp-bg">
     <!-- Main -->
       <div class="breadcumb-wrapper">
         <div class="container">
           <nav aria-label="breadcrumb">
-            <ol class="breadcrumb px-0">
+            <ol class="breadcrumb px-0 bottom-0">
               <li class="breadcrumb-item"><a href="#">Beranda</a></li>
-              <li class="breadcrumb-item"><a href="#">Visi Misi</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Struktur Organisasi</li>
+              <li class="breadcrumb-item"><a href="#">Laporan / E-jurnal</a></li>
+              <li class="breadcrumb-item">Judul Laporan</li>
             </ol>
           </nav>
         </div>
-      </div>       
-      <section class="page-wrapper struktur-org">
-        <div class="detail-page-wrapper">
-          <div class="container">
-              <div class="row reverse-mobile">
-                <div class="col-md-8">
-                    <div class="main-content">
-                      <h1 class="title mb-5">Struktur Organisasi</h1>
-                      <div class="img"><img src="images/img-struktur.png" alt="" class="img-fluid"></div>
+      </div>
+    </section>   
+    <section class="wrapp-innerbg">
+        <section class="search-top-wrapper">
+            <div class="container">
+            <div class="d-flex justify-content-between align-items-center bd-highlight mobile-column">
+                <div class="col-left mb-2">
+                <span >Urutkan berdasarkan:</span>
+                <select name="" id="">
+                    <option value="">Terbaru</option>
+                    <option value="">Terkait</option>
+                </select>
+                </div>
+                <div class="col-right">
+                <div class="search-wrapper">
+                    <div class="input-group rounded">
+                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                        aria-describedby="search-addon" />
+                    <span class="input-group-text border-0" id="search-addon">
+                        <i class="fas fa-search"></i>
+                    </span>
                     </div>
                 </div>
-                <!-- sidebar -->
-                <div class="col-md-4 sidebar-right">
-                  <div class="widget struktur-sidebar">
-                      <div class="hd-lable d-flex align-items-center">
-                        <div class="lbl"><i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp; Unit</div>
-                        <div class="col line-center"></div>
-                      </div>
-                      <div class="wr-group-list desktop-show">
-                        <ul class="list-group ">
-                            <li class="list-group-item bg-transparent pl-0"><a href="#">Laporan Keuangan</a></li>
-                            <li class="list-group-item bg-transparent pl-0"><a href="#">Anggaran</a></li>
-                            <li class="list-group-item bg-transparent pl-0"><a href="#">DIPA</a></li>
-                            <li class="list-group-item bg-transparent pl-0"><a href="#">Rencana Kerja</a></li>
-                            <li class="list-group-item bg-transparent pl-0"><a href="#">Rencana Umum dan pengadaan</a></li>
-                            <li class="list-group-item bg-transparent pl-0"><a href="#">Kinerja Kemenkes</a></li>
-                        </ul>
-                      </div>
-                      <select class="form-control mobile-show mb-5" id="exampleFormControlSelect1">
-                        <option>Laportan Keuangan</option>
-                        <option>Anggaran</option>
-                        <option>DIPA</option>
-                        <option>Rencana Kerja</option>
-                        <option>Rencana Umum dan pengadaan</option>
-                        <option value="">Kinerja Kemenkes</option>
-                      </select>
-                  </div> 
-                  <div class="widget video-sidebar desktop-show">
-                    <!-- video -->
-                    <div class="hd-lable d-flex align-items-center">
-                      <div class="lbl"><i class="fa fa-video-camera" aria-hidden="true"></i>&nbsp; Video</div>
-                      <div class="col line-center"></div>
-                    </div>
-                    <div class="wrap-list row">
-                      <div class="vid-slider col-12">
-                        <div>
-                          <img src="images/video-img.png" class="img-fluid">
+                </div>
+            </div>
+            <!-- <div class="mt-5 col-12"> -->
+                <div class="border-bar"></div>
+            <!-- </div> -->
+            </div>          
+        </section> 
+        <section class="page-wrapper detail-jurnal">
+        <div class="detail-page-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="widget-content widget-slider">
+                            <div class="widget-slider-item">
+                                <img src="images/infodatin-demam-berdarah-01.png" class="img-fluid">
+                            </div>
+                            <div class="widget-slider-item">
+                                <img src="images/infodatin-demam-berdarah-01.png" class="img-fluid">
+                            </div>
                         </div>
-                        <div>
-                          <img src="images/video-img.png" class="img-fluid">
+                        <div class="widget-pagging">
+                            <span>Hal 1/82 hal</span>
                         </div>
-                      </div>
                     </div>
-                  </div>                  
-                  <!-- Event -->
-                  <div class="widget event-sidebar desktop-show">
-                    <div class="hd-lable d-flex align-items-center">
-                      <div class="lbl"><i class="fa fa-video-camera" aria-hidden="true"></i>&nbsp; Event & Info</div>
-                      <div class="col line-center"></div>
+                    <!-- sidebar Jurnal-->
+                    <div class="col-md-4 sidebar-right mb-5">
+                        <div class="sidebar-content">
+                            <h4>Situasi Demam Berdarah di Indonesia</h4>
+                            <div class="sidebar-border"></div>
+                            <div class="sidebar-desc">
+                                <span>Deskripsi:</span>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis dignissimos maiores doloribus debitis, voluptate corporis eum sunt molestias </p>
+                                
+                                <span>Tanggal:</span>
+                                <p>09 Agustus 2020</p>
+                            </div>
+                            <div class="widget-action">
+                                <button class="btn">
+                                    <i class="fa fa-trash"></i> Delete
+                                </button>
+                                <button class="btn">
+                                    Disable
+                                </button>
+                            </div>
+                            <div class="share-widget d-flex align-items-center">
+                                <span>Bagikan :</span>
+                                <a href="#" class="rounded-circle mx-2 text-primary">
+                                    <i class="fab fa-facebook"></i>
+                                  </a>
+                                  <a href="#" class="rounded-circle mx-2 text-info">
+                                    <i class="fab fa-twitter"></i>
+                                  </a>
+                                  <a href="#" class="rounded-circle mx-2 text-danger">
+                                    <i class="fab fa-instagram" ></i>
+                                  </a>
+                            </div>
+                        </div>          
                     </div>
-                    <div class="wrap-list row">
-                      <div class="col-3 ">
-                        <a href="#"><img src="images/thumb-event-1.png" class="img-fluid"></a>
-                      </div>
-                      <div class="col-9 pd-0">
-                        <div class="sidetitle"><a href="#">Struktur Organisasi</a></div>
-                        <span class="profile">Profile</span>&nbsp; <span><i class="fa fa-calendar-o" aria-hidden="true"></i> 4 jan, 2021</span>
-                      </div>
+                <!-- end sidebar -->
+                    <div class="col-sm-12 widget-bottom">
+                        <h5>Laporan/E-jurnal Lainnya</h5>
+                        <div class="border-col"></div>
+                        <div class="others-content row">
+                            <div class="col-sm-3 group-thumb">
+                                <a href="#"><img src="images/thumb-ejurnal.png" alt="" class="img-fluid"></a>
+                                <div class="thumb-title">
+                                    <a href="#">Situasi Bidan di Indonesia</a>
+                                </div>
+                                <span><i class="fa fa-clock-o" aria-hidden="true"></i> &nbsp;Rabu, 29 juli 2020</span>
+                            </div>
+                            <div class="col-sm-3 group-thumb">
+                                <a href="#"><img src="images/thumb-ejurnal.png" alt="" class="img-fluid"></a>
+                                <div class="thumb-title">
+                                    <a href="#">Situasi Bidan di Indonesia</a>
+                                </div>
+                                <span><i class="fa fa-clock-o" aria-hidden="true"></i> &nbsp;Rabu, 29 juli 2020</span>
+                            </div>
+                            <div class="col-sm-3 group-thumb">
+                                <a href="#"><img src="images/thumb-ejurnal.png" alt="" class="img-fluid"></a>
+                                <div class="thumb-title">
+                                    <a href="#">Situasi Bidan di Indonesia</a>
+                                </div>
+                                <span><i class="fa fa-clock-o" aria-hidden="true"></i> &nbsp;Rabu, 29 juli 2020</span>
+                            </div>
+                            <div class="col-sm-3 group-thumb">
+                                <a href="#"><img src="images/thumb-ejurnal.png" alt="" class="img-fluid"></a>
+                                <div class="thumb-title">
+                                    <a href="#">Situasi Bidan di Indonesia</a>
+                                </div>
+                                <span><i class="fa fa-clock-o" aria-hidden="true"></i> &nbsp;Rabu, 29 juli 2020</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="wrap-list row">
-                      <div class="col-3">
-                        <a href="#"><img src="images/thumb-event-1.png" class="img-fluid"></a>
-                      </div>
-                      <div class="col-9 pd-0">
-                        <div class="sidetitle"><a href="#">Struktur Organisasi</a></div>
-                        <span class="profile">Profile</span>&nbsp; <span><i class="fa fa-calendar-o" aria-hidden="true"></i> 4 jan, 2021</span>
-                      </div>
-                    </div>
-                    <div class="wrap-list row">
-                      <div class="col-3">
-                        <a href="#"><img src="images/thumb-event-1.png" class="img-fluid"></a>
-                      </div>
-                      <div class="col-9 pd-0">
-                        <div class="sidetitle"><a href="#">Struktur Organisasi</a></div>
-                        <span class="profile">Profile</span>&nbsp; <span><i class="fa fa-calendar-o" aria-hidden="true"></i> 4 jan, 2021</span>
-                      </div>
-                    </div>
-                  </div>
-                  
-              <!-- end sidebar -->
-              </div>
-          </div>
+                </div>
+            </div>
         </div>        
-      </section>
+        </section>
     </section>
-            <!-- Kontak Kami -->
+           <!-- Kontak Kami -->
     <section class="contact-us">
       <div class="container">
         <div class="row py-5">
