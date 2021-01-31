@@ -1050,6 +1050,11 @@ ul.list-group{
         }
         .atribute-col{
             margin: 10px 0;
+            span{
+                @media screen and (max-width:768px) {
+                    font-size: 14px;
+                }
+            }
         }
     }
     .news-sidebar{
