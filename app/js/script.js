@@ -69,4 +69,9 @@ $(document).ready(function() {
         slidesToShow: 1,
     })
     
+    $(".popupCol").fancybox({
+		'titlePosition'		: 'inside',
+		'transitionIn'		: 'none',
+		'transitionOut'		: 'none'
+	});
 });

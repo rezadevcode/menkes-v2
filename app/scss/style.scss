@@ -34,9 +34,89 @@ body{
 .list-pejabat-wrapper{
     .list-pejabat{
         border-bottom: 1px solid #E3E3E3;
+        &:last-child{
+            border: none;
+        }
+        img{
+            border-radius: 8px;
+            border: 1px solid #E3E3E3;
+        }
         .name{
-            color: #0E817B;
-            font-weight: 700;
+            a{
+                color: #0E817B;
+                font-weight: 700;
+                font-size: 22px;
+                text-decoration: none;
+            }
+        }
+        .job{
+            font-size: 16px;
+        }
+        p{
+            margin-top: 13px;
+            color: #1A1A1A;
+        }
+        .widget-item{
+            margin-right: 34px;
+            span{
+                font-size: 14px;
+            }
+        }
+        .contact{
+            margin-top: 23px;
+            h5{
+                color: #1A1A1A;
+                margin-bottom: 15px;
+            }
+            .widget-item{
+                margin: 5px 0;
+                span{
+                    font-size: 14px;
+                    @media screen and (max-width:991px) {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+.popup-wrapper{
+    .hide-popup{
+        display: none;
+    }
+}
+.fancybox-content{
+    border-radius: 15px;
+    .bd-btm {
+        border-bottom: 4px solid #CFD40E;
+        margin: 34px 0;
+    }
+    img.profil{
+        border-radius: 8px;
+        border: 1px solid #E3E3E3;
+    }
+    .name{
+        color: #0E817B;
+        font-weight: 700;
+    }
+    .job{
+        font-size: 16px;
+    }
+    p{
+        margin-top: 13px;
+        color: #1A1A1A;
+    }
+    .contact{
+        margin-top: 23px;
+        h5{
+            color: #1A1A1A;
+            margin-bottom: 15px;
+        }
+        .widget-item{
+            margin: 5px 0;
+            span{
+                font-size: 14px;
+            }
         }
     }
 }
@@ -1225,6 +1305,7 @@ section.wrapp-innerbg {
 }
 
 .rule-section{
+    padding-bottom: 56px;
     .widget-content{
         .table-responsive{
             margin-bottom: 45px;
