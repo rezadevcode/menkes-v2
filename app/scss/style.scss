@@ -675,7 +675,8 @@ li.li-nav:active{
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -185px;
-    height: 190px;
+    // height: 190px;
+    padding-bottom: 23px;
     position: relative;
     &:before{
         content: '';
@@ -692,6 +693,16 @@ li.li-nav:active{
             a{
                 color: #ffffff;
             }
+        }
+    }
+    .col-items{
+        margin-right: 23px;
+        img{
+            width: 120px;
+        }
+        h2{
+            font-weight: bolder;
+            font-size: 36px;
         }
     }
 }
