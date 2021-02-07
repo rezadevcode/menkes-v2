@@ -351,6 +351,19 @@ li.li-nav:active{
 }
 .col-news{
     background-color: #F0F0F0;
+    &::before{
+        content: '';
+        background: #0C958E;
+        position: absolute;
+        width: 30%;
+        height: 40px;
+        left: -59px;
+        z-index: 1;
+        @media only screen and (min-width:2052px) and (max-width:2732px)
+        {
+            left: 0;
+        }
+    }
     .breaking {
         min-height: 40px;
         overflow: hidden;
