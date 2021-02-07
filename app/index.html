@@ -15,9 +15,7 @@
     <link rel="shortcut icon" href="images/Logo-Kementerian-Kesehatan.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="slick/slick.css">
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
-    <link rel="stylesheet" href="module/lightslider.css">
-    <link rel="stylesheet" href="module/owl.carousel.min.css">
-    <link rel="stylesheet" href="module/owl.theme.default.min.css">
+    <link rel="stylesheet" href="module/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/style.css">
 
     <title>
@@ -153,15 +151,20 @@
     <section id="wrapp-bg">
     <!-- Main -->
         <section class="col-news bg-dark">
-          <!-- News -->
-              <div class="d-flex breaking">
-                <div class="justify-content-between align-items-stretch br-news">
-                    <!-- <img src="images/breakingnews.svg" alt="breaking news" class="breaking-img"> -->
-                    <span>Breaking News</span>
+          <div class="container">
+            <!-- <div class="row">
+              <div class="col-12"> -->
+                <div class="d-flex breaking">
+                  <div class="justify-content-between align-items-stretch br-news">
+                      <!-- <img src="images/breakingnews.svg" alt="breaking news" class="breaking-img"> -->
+                      <span>Breaking News</span>
+                  </div>
+                  <div class="p-breaking ml-2 d-flex align-items-center">
+                      <p class="text-white">Kesiapsiagaan Rumah Sakit dalam Penanganan Penyakit COVID-19 <a href="#">Baca Selengkapnya</a></p>
+                  </div>
                 </div>
-                <div class="p-breaking ml-2 d-flex align-items-center">
-                    <p class="text-white">Kesiapsiagaan Rumah Sakit dalam Penanganan Penyakit COVID-19 <a href="#">Baca Selengkapnya</a></p>
-                </div>
+                <!-- </div>
+              </div> -->
             </div>
         </section>
           <!-- End Of News -->
@@ -493,8 +496,8 @@
            <div class="container">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-           <div class="my-5">
-            <div class="agenda clearfix">
+                <div class="my-5">
+                <div class="agenda clearfix">
 
               <div class="float-left" style="height: 10vh;">
                 <h3 style="line-height: 10vh;">
@@ -520,53 +523,49 @@
                   </span>
                   <div class="row mb-3">
 
-                    <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                    <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 img-agenda">
                       <img class="img-fluid " src="images/227fc0c16d4b891b67d3fd2c89eff200.png" alt="AFF" >
                     </div>
 
                     <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
-                      <div class="card" style="height: 43vh !important;background-color: #646464;overflow: hidden;">
-                        <div class="card-body ">
+                      <div class="card-body ">
 
-                          <h4 class="card-title" style="color: #C9D408;">
-                            MARET
-                          </h4>
+                        <h4 class="card-title" style="color: #C9D408;">
+                          MARET
+                        </h4>
 
-                          <div class="list-agenda">
-                            <div>
-                              <span class="badge badge-warning text-white px-3 py-2 mr-2" style="border-radius: 0 !important;background-color: #C9D408;">
-                                1
-                              </span>
-                              <h6 class="text-white ml-2 d-inline-block">
-                                FINTECHSTAGE
-                              </h6>
-                              <p style="color: #E3E3E3 !important;font-size: 12px;margin-left:60px;">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                              </p>
-                            </div>
-                            <hr style="width: 25%;border-top: 2px solid #C9D408;border-bottom: 2px solid #646464;display: inline-block;margin-left: 20px;">
-                            <div>
-                              <span class="badge badge-warning text-white px-3 py-2" style="border-radius: 0 !important;background-color: #C9D408;">
-                                20
-                              </span>
-                              <h6 class="text-white ml-2 d-inline-block">
-                                BRAZE 2021
-                              </h6>
-                              <p style="color: #E3E3E3 !important;font-size: 12px;margin-left:60px;">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                              </p>
-                            </div>
-                            
+                        <div class="list-agenda">
+                          <div>
+                            <span class="badge badge-warning text-white px-3 py-2 mr-2" style="border-radius: 0 !important;background-color: #C9D408;">
+                              1
+                            </span>
+                            <h6 class="text-white ml-2 d-inline-block">
+                              FINTECHSTAGE
+                            </h6>
+                            <p style="color: #E3E3E3 !important;font-size: 12px;margin-left:60px;">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
                           </div>
-
+                          <hr style="width: 25%;border-top: 2px solid #C9D408;border-bottom: 2px solid #646464;display: inline-block;margin-left: 20px;margin-top: 0;">
+                          <div>
+                            <span class="badge badge-warning text-white px-3 py-2" style="border-radius: 0 !important;background-color: #C9D408;">
+                              20
+                            </span>
+                            <h6 class="text-white ml-2 d-inline-block">
+                              BRAZE 2021
+                            </h6>
+                            <p style="color: #E3E3E3 !important;font-size: 12px;margin-left:60px;">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                          </div>
+                          
                         </div>
+
                       </div>
                     </div>
 
                     <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                      <div class="card" style="height: 43vh !important;background-color:#FFFFFF;overflow: hidden;">
-                        <div class="card-body ">
-
+                      <div class="card-body bg-white">
                           <h4 class="card-title" style="color: #C9D408;">
                             APRIL
                           </h4>
@@ -586,8 +585,6 @@
                             </p>
 
                           </div>
-
-                        </div>
                       </div>
                     </div>
 
@@ -773,9 +770,8 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/86bd5d84df.js" crossorigin="anonymous"></script>
-    <script src="js/lightslider.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
