@@ -363,6 +363,9 @@ li.li-nav:active{
         {
             left: 0;
         }
+        @media screen and (max-width: 767px) {
+            display: none;
+        }
     }
     .breaking {
         min-height: 40px;
